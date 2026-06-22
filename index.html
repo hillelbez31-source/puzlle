@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marce's Puzzle 💗</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- INTRO SCREEN -->
+    <div id="intro-screen" class="screen active">
+
+        <div class="card">
+
+            <h1>Marce's Puzzle 💗</h1>
+
+            <p>
+                I hid a few memories inside these puzzles.
+            </p>
+
+            <p>
+                Your goal is to put the image back together.
+            </p>
+
+            <p>
+                📱 Since you're on phone:
+            </p>
+
+            <ul>
+                <li>Tap one piece.</li>
+                <li>Tap another piece.</li>
+                <li>The two pieces will swap places.</li>
+                <li>Arrange the image correctly.</li>
+                <li>When you're done, place the missing piece.</li>
+            </ul>
+
+            <p>
+                There are 5 puzzles waiting for you 😭💗
+            </p>
+
+            <button id="start-btn">
+                Start
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- GAME SCREEN -->
+    <div id="game-screen" class="screen">
+
+        <div class="top-area">
+
+            <h2 id="puzzle-title">
+                Puzzle 1 / 5
+            </h2>
+
+            <p id="hint-text">
+                hint
+            </p>
+
+        </div>
+
+        <div class="game-wrapper">
+
+            <!-- BOARD -->
+            <div id="board" class="board"></div>
+
+            <!-- SIDE -->
+            <div class="side-panel">
+
+                <h3>Missing Piece</h3>
+
+                <div id="missing-piece" class="missing-piece">
+                </div>
+
+                <button id="place-piece-btn" disabled>
+                    Place Missing Piece
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- MESSAGE SCREEN -->
+    <div id="message-screen" class="screen">
+
+        <div class="card">
+
+            <h2 id="message-title">
+                YAAAAAY!
+            </h2>
+
+            <p id="message-text">
+                good job my love💗
+            </p>
+
+            <button id="next-btn">
+                Next Puzzle
+            </button>
+
+        </div>
+
+    </div>
+
+    <!-- LETTER SCREEN -->
+    <div id="letter-screen" class="screen">
+
+        <div class="letter-card">
+
+            <h2>
+                one last thing...
+            </h2>
+
+            <div class="letter-text">
+
+                <p>
+                    i know u noticed the last one was a bit different.
+                </p>
+
+                <p>
+                    first i hope u had a good day at the beach.
+                    and i hope u r doing well.
+                </p>
+
+                <p>
+                    tho i had a strange nightmare last night it was the first night asln.
+                </p>
+
+                <p>
+                    i saw us in class but u were sitting infornt of me in the middle seat with two guys while we were waiting for our exam papers.
+                </p>
+
+                <p>
+                    tho u were trying a cap that belongs to one of those two guys when the guy on ur left tried to adjust it on ur hair so i shouted "HEEEYYYYYYY".
+                </p>
+
+                <p>
+                    dk where did that came from, tho i couldnt hold it.
+                </p>
+
+                <p>
+                    then the teacher asked u who shouted and u looked at me.
+                </p>
+
+                <p>
+                    so she asked me again and i was like "nah i swear wasnt me".
+                </p>
+
+                <p>
+                    and again happened the same thing and i shouted again.
+                </p>
+
+                <p>
+                    so the teacher didnt ask or do anyth.
+                </p>
+
+                <p>
+                    she took three apples and gave em to the three of u.
+                </p>
+
+                <p>
+                    u held that apple and turned to me and shouted:
+                </p>
+
+                <p class="highlight">
+                    ITS OVER
+                </p>
+
+                <p>
+                    i rushed with tears in my eyes and said:
+                </p>
+
+                <p class="highlight">
+                    im heading to the restroom
+                </p>
+
+                <p>
+                    while crying.
+                </p>
+
+                <p>
+                    tho on my way to the restroom i woke up shocked with tears dropping on my face irl.
+                </p>
+
+                <p>
+                    that was the worst nightmare i've ever had.
+                </p>
+
+                <p>
+                    literally i barely feel a dream deeply enough to wake up crying from it.
+                </p>
+
+                <p>
+                    tho just wanted to share this.
+                </p>
+
+                <p>
+                    ik it will change nothing.
+                </p>
+
+                <p>
+                    tho i hope u r doing well.
+                </p>
+
+                <p>
+                    and i hope u enjoyed the website.
+                </p>
+
+                <p>
+                    i just wanted to tell u:
+                </p>
+
+                <p class="highlight">
+                    its not even hard but feels impossible to move on while "MISSING YOU" is haunting me.
+                </p>
+
+                <p>
+                    tho, i hope uk that i love you yasmine.
+                </p>
+
+                <p>
+                    be safe tho.
+                </p>
+
+                <p>
+                    and no need to reply.
+                </p>
+
+                <p>
+                    i hope u enjoyed.
+                </p>
+
+                <p>
+                    i hope u r doing well.
+                </p>
+
+                <p class="ending">
+                    take care of urself kisses all over ur cute face💗
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- AUDIO PLACEHOLDERS -->
+  <audio id="success-sound" src="audio/success.mp3"></audio>
+<audio id="click-sound" src="audio/click.mp3"></audio>
+<audio id="bg-music" src="audio/bgmusic.mp3" loop></audio>
+    <script src="script.js"></script>
+
+</body>
+</html>
